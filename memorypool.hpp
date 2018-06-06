@@ -38,7 +38,7 @@ public:
 	memorypool();
 	memorypool(int, int, int, int);
 	~memorypool();
-
+private:
 	void poolinit(int, int, int, int);
 	void restart();
 	void *alloc();
